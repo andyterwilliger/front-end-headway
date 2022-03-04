@@ -1,3 +1,4 @@
+import { BrowserRouter } from "react-router-dom";
 import {
   ApolloClient,
   InMemoryCache,
@@ -15,10 +16,12 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <h2>My first Apollo app </h2>
-    </div>
+    <BrowserRouter>
+      <div>
+        <NavBar />
+        <h2>My first Apollo app </h2>
+      </div>
+    </BrowserRouter>
   );
 }
 
