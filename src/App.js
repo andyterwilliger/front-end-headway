@@ -7,6 +7,7 @@ import {
   gql
 } from "@apollo/client";
 import NavBar from "./components/Nav";
+import Header from "./components/Header";
 import "bootstrap/dist/css/bootstrap.css";
 
 const client = new ApolloClient({
@@ -19,7 +20,7 @@ function App() {
     <BrowserRouter>
       <div>
         <NavBar />
-        <h2>My first Apollo app </h2>
+        <Header />
       </div>
     </BrowserRouter>
   );
