@@ -10,7 +10,7 @@ import NavBar from "./components/Nav";
 import Header from "./components/Header";
 import Form from "./components/Form";
 import "bootstrap/dist/css/bootstrap.css";
-
+import Footer from "./components/Footer";
 const client = new ApolloClient({
   uri: "https://7tnxqt.sse.codesandbox.io/",
   cache: new InMemoryCache()
@@ -37,6 +37,7 @@ function App() {
         <NavBar />
         <Header />
         <Form />
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 function Form() {
   return (
     <div className="form-container">
-      <form className="form">
+      <form className="form" action="https://7tnxqt.sse.codesandbox.io/">
         <label for="url"></label>
         <br />
         <input

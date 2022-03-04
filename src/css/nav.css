@@ -7,3 +7,11 @@
 .nav-item {
   margin: 0px 10px;
 }
+
+.brand-img {
+  display: flex;
+  width: 110%;
+}
+
+.navbar-toggler-icon {
+}
