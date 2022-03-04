@@ -1,0 +1,23 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  background-color: #254e70;
+}
+.form {
+  display: inline-block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  border-radius: 8px;
+}
+
+#submit-url {
+  background-color: #0081a7;
+  border-radius: 10px;
+  padding: 0 15% 0 15%;
+}

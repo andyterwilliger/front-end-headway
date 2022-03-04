@@ -8,6 +8,7 @@ import {
 } from "@apollo/client";
 import NavBar from "./components/Nav";
 import Header from "./components/Header";
+import Form from "./components/Form";
 import "bootstrap/dist/css/bootstrap.css";
 
 const client = new ApolloClient({
@@ -21,6 +22,7 @@ function App() {
       <div>
         <NavBar />
         <Header />
+        <Form />
       </div>
     </BrowserRouter>
   );
