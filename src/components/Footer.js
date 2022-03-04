@@ -1,3 +1,5 @@
+import "../css/footer.css";
+
 function Footer() {
   return (
     <nav className="footer-nav">

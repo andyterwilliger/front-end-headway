@@ -1,0 +1,11 @@
+ul {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.footer-nav-li {
+  list-style-type: none;
+  font-size: 50%;
+  margin-bottom: 0;
+}

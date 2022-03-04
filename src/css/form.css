@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: #254e70;
+  padding-bottom: 50px;
 }
 .form {
   display: inline-block;
