@@ -12,9 +12,23 @@ import Form from "./components/Form";
 import "bootstrap/dist/css/bootstrap.css";
 
 const client = new ApolloClient({
-  uri: "https://48p1r2roz4.sse.codesandbox.io",
+  uri: "https://7tnxqt.sse.codesandbox.io/",
   cache: new InMemoryCache()
 });
+
+client
+  .query({
+    query: gql`
+      query AllLinks {
+        allLinks {
+          id
+          url
+          slug
+        }
+      }
+    `
+  })
+  .then((result) => console.log(result));
 
 function App() {
   return (
