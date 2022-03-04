@@ -4,7 +4,9 @@ import "../css/header.css";
 function Header() {
   return (
     <div className="header">
-      <h1> Your Brand on Your Links </h1> <br />
+      <div className="header-h1-container">
+        <h1 id="header-h1"> Your Brand on Your Links </h1> <br />
+      </div>
       <p> </p>
       <div className="header-img">
         <img
